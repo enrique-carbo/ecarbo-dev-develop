@@ -1,0 +1,4 @@
+{
+    "python.terminal.activateEnvironment": false,
+    "css.customData": [".vscode/css_custom_data.json"]
+}
