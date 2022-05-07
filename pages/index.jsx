@@ -8,28 +8,34 @@ export default function Home() {
     <Layout>
 
 
-    <header className="pt-6 pb-10 bg-gray-300">
+    <header class="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
+        <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
 
-      <div className="grid md:grid-cols-2">
-      <div className="flex justify-center md:justify-end">
-      <Image src="/img/logo-ecarbo.svg" alt="Logo image" height={100} width={170} 
-      className="transition ease-in-out delay-300 hover:-translate-y-1 hover:scale-150 duration-500"></Image>
-      </div>  
+        <div className="grid md:grid-cols-2">
+          <div className="flex justify-center md:justify-end">
+            <Image src="/img/logo-ecarbo.svg" alt="Logo image" height={100} width={170} 
+            className="transition ease-in-out delay-300 hover:-translate-y-1 hover:scale-150 duration-500"></Image>
+          </div>  
       
-      <div className="flex justify-center md:justify-start">
-      <h1 className="text-5xl pt-5 font-mono font-bold text-blue-800 hover:text-slate-600 mb-5">
-      ECARBO        
-      </h1>
-      </div>
-      
+          <div className="flex justify-center md:justify-start">
+            <h1 className="text-5xl pt-5 font-mono font-bold mb-5">
+            ECARBO        
+            </h1>
+          </div>
+        </div>
+   
+         <h3 className="text-4xl italic text-center font-serif">
+            Research and Software Development!
+         </h3>
+        </div>
 
-      </div>
-           
-      <h3 className="text-4xl italic text-center font-serif text-slate-600 hover:text-blue-600">
-        Research and Software Development!
-      </h3>
-
-      
+        <div class="absolute inset-0 w-full h-full mix-blend-multiply">
+          <img
+            src="/img/modern-background.jpg"
+            alt="Image of Parana"
+            class="absolute inset-0 object-cover object-top w-full h-full"
+          />
+        </div>
     </header>
 
     <div>
@@ -70,9 +76,35 @@ export default function Home() {
       </div>
     </div>
 
-    <div className="w-full h-80 bg-[url('/img/background.png')] bg-center bg-cover">
-      <div className="pt-20 text-4xl text-center text-white">Building solutions with code</div>
-    </div>
+    
+    <aside class="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
+        <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
+          <div class="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
+            <h2 class="text-4xl font-bold sm:text-5xl">
+              Building solutions
+              <span class="block">
+                with Code!
+              </span>
+            </h2>
+
+            <p class="hidden sm:block sm:max-w-lg sm:ml-auto sm:text-lg">
+              You’ll have noticed that, no matter what’s going on in the world around us, technology is omnipresent in our lives. 
+            </p>
+
+            <a class="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" href="https://github.com/enrique-carbo" target="_blank">
+              Github
+            </a>
+          </div>
+        </div>
+
+        <div class="absolute inset-0 w-full h-full mix-blend-multiply">
+          <img
+            src="/img/code-laptop.jpg"
+            alt="Code laptop"
+            class="absolute inset-0 object-cover object-top w-full h-full"
+          />
+        </div>
+      </aside>
 
     <div>
       <div className="grid md:grid-cols-2 gap-4 m-10 mt-20">
@@ -131,6 +163,8 @@ export default function Home() {
         </div>
       </div>
     </div>
+
+    
 
 
     </Layout>

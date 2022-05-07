@@ -7,11 +7,23 @@ const Portfolio = () => {
     return ( 
         <Layout>
 
-          <header className="pt-6 pb-10 bg-gray-300">
-            <h1 className="text-4xl font-bold text-center mt-10">Portfolio</h1>
+        <header class="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
+        <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
+          <div class="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
+            <h2 class="text-4xl font-bold sm:text-5xl">
+              Portfolio
+            </h2>
+         </div>
+        </div>
 
-
-          </header>
+        <div class="absolute inset-0 w-full h-full mix-blend-multiply">
+          <img
+            src="/img/motion-speed.jpg"
+            alt="Image of Parana"
+            class="absolute inset-0 object-cover object-top w-full h-full"
+          />
+        </div>
+        </header>
 
             <div className="grid md:grid-cols-3 gap-4 mt-10 mb-5 mx-5">
 

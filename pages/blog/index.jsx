@@ -40,13 +40,28 @@ const Blog = () => {
         <Layout>
 
             
-        <header className="pt-6 pb-10 bg-gray-300">
-        <h1 className="text-4xl font-bold text-center mt-10">Blog</h1>
-        </header>
+        <header class="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
+        <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
+          <div class="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
+            <h2 class="text-4xl font-bold sm:text-5xl">
+              Blog
+            </h2>
 
-        <div className="flex justify-center m-10">
-        <Image src="/img/blog-ecarbo.svg" alt="People blogging" height={500} width={700}></Image>
+            <p class="hidden sm:block sm:max-w-lg sm:ml-auto sm:text-lg">
+                Sharing news about technology and health sciences.
+            </p>
+   
+          </div>
         </div>
+
+        <div class="absolute inset-0 w-full h-full mix-blend-multiply">
+          <img
+            src="/img/keyboard-person.jpg"
+            alt="Code laptop"
+            class="absolute inset-0 object-cover object-top w-full h-full"
+          />
+        </div>
+        </header>
 
         <div className="mt-12 grid md:gap-4 md:grid-cols-2 md:mx-5 lg:grid-cols-3 xl:grid-cols-4 mb-10 lg:mx-20 lg:gap-10">
                 {
