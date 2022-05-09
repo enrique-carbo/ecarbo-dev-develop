@@ -10,7 +10,7 @@ const Card = (props) => {
                 </p>
                 <a 
                 href= { props.link } 
-                target="_blank" 
+                target="_blank" rel="noreferrer"
                 className="inline-block bg-blue-500 hover:bg-blue-400 border-b-4 border-blue-700 hover:border-blue-500 text-white text-center py-2 px-6 rounded shadow-lg transition duration-150 ease-in-out uppercase">
                 Link
                 </a>   

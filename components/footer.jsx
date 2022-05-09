@@ -13,18 +13,18 @@ const Footer = () => {
             <div className="flex justify-center">
 
                 
-                <a href="https://github.com/enrique-carbo" target="_blank" className="mr-6 text-gray-600 ">
+                <a href="https://github.com/enrique-carbo" target="_blank" rel="noreferrer" className="mr-6 text-gray-600 ">
                 <AiFillGithub className="inline"/>
                 <span className="ml-2">Github</span>
                 </a>
                 
 
-                <a href="https://www.linkedin.com/in/enrique-carbo" target="_blank" className="mr-4 text-gray-600">
+                <a href="https://www.linkedin.com/in/enrique-carbo" target="_blank" rel="noreferrer" className="mr-4 text-gray-600">
                 <BsLinkedin className="inline"/>
                 <span className="ml-2">Linkedin</span>
                 </a>
 
-                <a href="https://huggingface.co/ecarbo" target="_blank" className="text-gray-600">
+                <a href="https://huggingface.co/ecarbo" target="_blank" rel="noreferrer" className="text-gray-600">
                 <span className="ml-2">🤗  Hugging Face</span>
                 </a>
 
@@ -43,7 +43,7 @@ const Footer = () => {
                     <p>
                     Development solutions that are responsive, simple, fast, and cost effective. 
                     </p>
-                    <p>I would like to thank <a target="_blank" href="https://www.freepik.com" className="font-bold">Freepik</a> for the images.</p>
+                    <p>I would like to thank <a target="_blank" rel="noreferrer" href="https://www.freepik.com" className="font-bold">Freepik</a> for the images.</p>
                 </div>
 
             <div>

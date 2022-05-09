@@ -91,7 +91,10 @@ export default function Home() {
               You’ll have noticed that, no matter what’s going on in the world around us, technology is omnipresent in our lives. 
             </p>
 
-            <a className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" href="https://github.com/enrique-carbo" target="_blank">
+            <a className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" 
+                href="https://github.com/enrique-carbo" 
+                target="_blank"
+                rel="noreferrer">
               Github
             </a>
           </div>
