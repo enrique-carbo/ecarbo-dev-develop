@@ -8,8 +8,8 @@ export default function Home() {
     <Layout>
 
 
-    <header class="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
-        <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
+    <header className="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
+        <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
 
         <div className="grid md:grid-cols-2">
           <div className="flex justify-center md:justify-end">
@@ -29,11 +29,11 @@ export default function Home() {
          </h3>
         </div>
 
-        <div class="absolute inset-0 w-full h-full mix-blend-multiply">
+        <div className="absolute inset-0 w-full h-full mix-blend-multiply">
           <img
             src="/img/modern-background.jpg"
             alt="Image of Parana"
-            class="absolute inset-0 object-cover object-top w-full h-full"
+            className="absolute inset-0 object-cover object-top w-full h-full"
           />
         </div>
     </header>
@@ -77,31 +77,31 @@ export default function Home() {
     </div>
 
     
-    <aside class="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
-        <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
-          <div class="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
-            <h2 class="text-4xl font-bold sm:text-5xl">
+    <aside className="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
+        <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
+          <div className="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
+            <h2 className="text-4xl font-bold sm:text-5xl">
               Building solutions
-              <span class="block">
+              <span className="block">
                 with Code!
               </span>
             </h2>
 
-            <p class="hidden sm:block sm:max-w-lg sm:ml-auto sm:text-lg">
+            <p className="hidden sm:block sm:max-w-lg sm:ml-auto sm:text-lg">
               You’ll have noticed that, no matter what’s going on in the world around us, technology is omnipresent in our lives. 
             </p>
 
-            <a class="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" href="https://github.com/enrique-carbo" target="_blank">
+            <a className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" href="https://github.com/enrique-carbo" target="_blank">
               Github
             </a>
           </div>
         </div>
 
-        <div class="absolute inset-0 w-full h-full mix-blend-multiply">
+        <div className="absolute inset-0 w-full h-full mix-blend-multiply">
           <img
             src="/img/code-laptop.jpg"
             alt="Code laptop"
-            class="absolute inset-0 object-cover object-top w-full h-full"
+            className="absolute inset-0 object-cover object-top w-full h-full"
           />
         </div>
       </aside>
@@ -140,10 +140,37 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center">
-        <Image src="/img/rpa.png" alt="Image from computers" height={400} width={500} className="rounded-lg"></Image>
+        <Image src="/img/rpa.jpg" alt="Image from computers" height={400} width={500} className="rounded-lg"></Image>
         </div>
       </div>
     </div>
+
+    <aside
+      className="overflow-hidden text-white lg:grid bg-gradient-to-r from-sky-500 to-blue-800 lg:grid-cols-2 lg:items-center"
+    >
+      <div className="p-12 text-center sm:p-16 lg:p-24 lg:text-left">
+        <div className="max-w-lg mx-auto lg:ml-0 lg:pt-12">
+          <p className="text-3xl font-bold sm:text-4xl">
+            Artificial Intelligence.
+          </p>
+
+          <p className="mt-4">
+          We’re already applying AI to an amazing range of important problems across domains as
+          different as medical imaging, agriculture, autonomous driving, education, disaster prevention, and manufacturing.
+          </p>
+        </div>
+      </div>
+
+      <div className="lg:pt-24">
+        <div className="relative w-full h-64 sm:h-96 lg:h-[500px]">
+          <img
+            className="absolute inset-0 object-cover w-full h-full lg:rounded-tl-3xl"
+            src="/img/brain-technology.jpg"
+            alt="Artificial Intelligence"
+          />
+        </div>
+      </div>
+    </aside>
 
     <div>
       <div className="grid md:grid-cols-2 gap-4 m-10 mt-10">

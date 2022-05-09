@@ -2,8 +2,9 @@ import { useState } from "react";
 import Link from "next/link";
 
 import { FaBars, FaCogs, FaCode } from "react-icons/fa";
-import { SiAboutdotme, SiBloglovin } from "react-icons/si";   
+import { SiAboutdotme } from "react-icons/si";   
 import { MdOutlineWeb } from "react-icons/md"
+import { BiNews } from "react-icons/bi"
  
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -76,10 +77,10 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item">
-                <Link href="/blog">
+                <Link href="/news">
                     <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
-                    <SiBloglovin className="text-lg leading-lg text-white opacity-75"/>  
-                    <span className="ml-2">Blog</span>
+                    <BiNews className="text-lg leading-lg text-white opacity-75"/>  
+                    <span className="ml-2">News</span>
                     </a>  
                 </Link>  
               </li>

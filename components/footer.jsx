@@ -82,10 +82,16 @@ const Footer = () => {
                 <a className="text-gray-600">Portfolio</a>
                 </Link>    
                 </p>
+
+                <p className="mb-4">
+                <Link href="/technologies">
+                <a className="text-gray-600">Technologies</a>
+                </Link>    
+                </p>
                 
                 <p className="mb-4">
-                <Link href="/blog">
-                <a className="text-gray-600">Blog</a>
+                <Link href="/news">
+                <a className="text-gray-600">News</a>
                 </Link>    
                 </p>
             </div>
