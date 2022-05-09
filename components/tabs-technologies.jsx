@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CardTech from "./card-tech";
 
-const Tabs = ({ color }) => {
+export default function TabsTechRender() {
   const [openTab, setOpenTab] = useState(1);
   return (
     <>
@@ -16,8 +16,8 @@ const Tabs = ({ color }) => {
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal md:text-md lg:text-lg " +
                   (openTab === 1
-                    ? "text-white bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
+                    ? "text-white bg-blue-600"
+                    : "text-blue-600 bg-white")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -35,8 +35,8 @@ const Tabs = ({ color }) => {
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal md:text-md lg:text-lg " +
                   (openTab === 2
-                    ? "text-white bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
+                    ? "text-white bg-blue-600"
+                    : "text-blue-600 bg-white")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -54,8 +54,8 @@ const Tabs = ({ color }) => {
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal md:text-md lg:text-lg " +
                   (openTab === 3
-                    ? "text-white bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
+                    ? "text-white bg-blue-600"
+                    : "text-blue-600 bg-white")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -73,8 +73,8 @@ const Tabs = ({ color }) => {
                 className={
                   "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal md:text-md lg:text-lg " +
                   (openTab === 4
-                    ? "text-white bg-" + color + "-600"
-                    : "text-" + color + "-600 bg-white")
+                    ? "text-white bg-blue-600"
+                    : "text-blue-600 bg-white")
                 }
                 onClick={e => {
                   e.preventDefault();
@@ -150,10 +150,3 @@ const Tabs = ({ color }) => {
   );
 };
 
-export default function TabsTechRender() {
-  return (
-    <>
-      <Tabs color="blue" />
-    </>
-  );
-}
