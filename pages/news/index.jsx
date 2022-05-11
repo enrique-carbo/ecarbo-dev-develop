@@ -20,23 +20,23 @@ const News = () => {
         {
             title: "HyperUI — Free Open Source Tailwind CSS Components",
             desc: "HyperUI is a collection of free Tailwind CSS components that can be used in your next project. With a range of components, you can build your next marketing website, admin dashboard, ecommerce store and much more.",
-            img: "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            img: "https://images.unsplash.com/photo-1569748130764-3fed0c102c59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             date: "May 7 2022",
             href: "https://www.hyperui.dev/"
         },
         {
-            title: "7 Promising VS Code Extensions Introduced in 2022",
-            desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
-            img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-            date: "Jan 4 2022",
-            href: "#"
+            title: "Yoga for weight loss: Benefits beyond burning calories",
+            desc: "Yoga can also help you burn calories, as well as increase your muscle mass and tone. There is good research that yoga may help you manage stress, improve your mood, curb emotional eating, and create a community of support.",
+            img: "https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            date: "May 7 2022",
+            href: "https://www.health.harvard.edu/blog/yoga-for-weight-loss-benefits-beyond-burning-calories-202112062650?utm_content=buffer7af8e&utm_medium=social&utm_source=linkedin&utm_campaign=hhp"
         },
         {
-            title: "How to Use Root C++ Interpreter Shell to Write C++ Programs",
-            desc: "The powerful gravity waves resulting from the impact of the planets' moons â€” four in total â€” were finally resolved in 2015 when gravitational microlensing was used to observe the",
-            img: "https://images.unsplash.com/photo-1617529497471-9218633199c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-            date: "Jan 4 2022",
-            href: "#"
+            title: "A randomized trial of comparing video telecare education vs in-person education on dietary regimen compliance in patients with type 2 diabetes mellitus.",
+            desc: "Video tele-education was just as effective as in-person educational method on dietary regimen compliance among patients with T2DM in a three-month period.",
+            img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            date: "May 4 2022",
+            href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9063130/"
         }
     ]
 
@@ -74,7 +74,7 @@ const News = () => {
                 {
                     posts.map((items, key) => (
                         <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
-                            <a href={items.href}>
+                            <a href={items.href} target="_blank" rel="noreferrer">
                                 <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
                                 <div className="flex items-center mt-2 pt-3 ml-4 mr-2">
                                     <div className="ml-3">

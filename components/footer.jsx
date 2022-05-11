@@ -43,7 +43,10 @@ const Footer = () => {
                     <p>
                     Development solutions that are responsive, simple, fast, and cost effective. 
                     </p>
-                    <p>I would like to thank <a target="_blank" rel="noreferrer" href="https://www.freepik.com" className="font-bold">Freepik</a> for the images.</p>
+                    <p>I would like to thank 
+                    <a target="_blank" rel="noreferrer" href="https://www.freepik.com" className="font-bold"> Freepik</a> and 
+                    <a target="_blank" rel="noreferrer" href="https://unsplash.com" className="font-bold"> Unsplash </a> 
+                    for the images.</p>
                 </div>
 
             <div>
