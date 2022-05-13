@@ -7,7 +7,6 @@ export default function Home() {
 
     <Layout>
 
-
     <header className="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
 
@@ -30,11 +29,9 @@ export default function Home() {
         </div>
 
         <div className="absolute inset-0 w-full h-full mix-blend-multiply">
-          <img
-            src="/img/modern-background.jpg"
-            alt="Image of Parana"
-            className="absolute inset-0 object-cover object-top w-full h-full"
-          />
+          <video autoPlay loop muted className="absolute inset-0 object-cover object-top w-full h-full">
+            <source src="/video/header_video.mp4" type='video/mp4' />
+          </video>
         </div>
     </header>
 

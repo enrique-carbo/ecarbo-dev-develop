@@ -1,8 +1,16 @@
 import Layout from "../../components/Layout";
 import Image from "next/image";
 
+
 const News = () => {
     const posts = [
+        {
+            title: "Ambient Clinical Intelligence: Generating Medical Reports with PyTorch",
+            desc: "PyTorch is an open-source machine learning framework developed by Facebook that helps researchers prototype Deep Learning models. The Fairseq toolkit is built on top of PyTorch and focuses on sequence generation tasks, such as Neural Machine Translation (NMT) or Text Summarization.",
+            img: "https://images.unsplash.com/photo-1589279003513-467d320f47eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            date: "May 12 2022",
+            href: "https://pytorch.org/blog/ambient-clinical-intelligence-generating-medical-reports-with-pytorch/"
+        },
         {
             title: "AbbVie and Cerebras Systems partner to accelerate AI research",
             desc: "Link up between AbbVie and Cerebras Systems boosts AI platforms, while radically reducing energy consumption",
@@ -62,10 +70,11 @@ const News = () => {
         </div>
 
         <div className="absolute inset-0 w-full h-full mix-blend-multiply">
-          <img
+          <Image
             src="/img/keyboard-person.jpg"
             alt="Code laptop"
             className="absolute inset-0 object-cover object-top w-full h-full"
+            layout="fill"
           />
         </div>
         </header>
@@ -75,7 +84,7 @@ const News = () => {
                     posts.map((items, key) => (
                         <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
                             <a href={items.href} target="_blank" rel="noreferrer">
-                                <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
+                                <Image src={items.img} alt={items.title} width={500} height={300} className="rounded-t-lg" />
                                 <div className="flex items-center mt-2 pt-3 ml-4 mr-2">
                                     <div className="ml-3">
                                         <span className="block text-gray-400 text-sm">{items.date}</span>
