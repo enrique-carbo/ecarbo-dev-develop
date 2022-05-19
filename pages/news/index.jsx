@@ -1,60 +1,15 @@
 import Layout from "../../components/Layout";
 import Image from "next/image";
+import Posts from "../../data/news.json"
 
 
 const News = () => {
-    const posts = [
-        {
-            title: "Ambient Clinical Intelligence: Generating Medical Reports with PyTorch",
-            desc: "PyTorch is an open-source machine learning framework developed by Facebook that helps researchers prototype Deep Learning models. The Fairseq toolkit is built on top of PyTorch and focuses on sequence generation tasks, such as Neural Machine Translation (NMT) or Text Summarization.",
-            img: "https://images.unsplash.com/photo-1589279003513-467d320f47eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-            date: "May 12 2022",
-            href: "https://pytorch.org/blog/ambient-clinical-intelligence-generating-medical-reports-with-pytorch/"
-        },
-        {
-            title: "AbbVie and Cerebras Systems partner to accelerate AI research",
-            desc: "Link up between AbbVie and Cerebras Systems boosts AI platforms, while radically reducing energy consumption",
-            img: "https://images.unsplash.com/photo-1521790797524-b2497295b8a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            date: "May 9 2022",
-            href: "https://www.pharmatimes.com/news/abbvie_and_cerebras_systems_partner_to_accelerate_ai_research_1448088"
-        },
-        {
-            title: "PyScript — became Pythonic in the browser",
-            desc: `During a keynote speech at PyCon US 2022, Anaconda’s CEO Peter Wang unveiled quite a surprising project — PyScript. It is a JavaScript framework that allows users to create Python applications in the browser using a mix of Python and standard HTML.`,
-            img: "https://pyscript.net/assets/images/pyscript-sticker-black.svg",
-            date: "May 7 2022",
-            href: "https://pyscript.net/"
-        },
-        {
-            title: "HyperUI — Free Open Source Tailwind CSS Components",
-            desc: "HyperUI is a collection of free Tailwind CSS components that can be used in your next project. With a range of components, you can build your next marketing website, admin dashboard, ecommerce store and much more.",
-            img: "https://images.unsplash.com/photo-1569748130764-3fed0c102c59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-            date: "May 7 2022",
-            href: "https://www.hyperui.dev/"
-        },
-        {
-            title: "Yoga for weight loss: Benefits beyond burning calories",
-            desc: "Yoga can also help you burn calories, as well as increase your muscle mass and tone. There is good research that yoga may help you manage stress, improve your mood, curb emotional eating, and create a community of support.",
-            img: "https://images.unsplash.com/photo-1616699002805-0741e1e4a9c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-            date: "May 7 2022",
-            href: "https://www.health.harvard.edu/blog/yoga-for-weight-loss-benefits-beyond-burning-calories-202112062650?utm_content=buffer7af8e&utm_medium=social&utm_source=linkedin&utm_campaign=hhp"
-        },
-        {
-            title: "A randomized trial of comparing video telecare education vs in-person education on dietary regimen compliance in patients with type 2 diabetes mellitus.",
-            desc: "Video tele-education was just as effective as in-person educational method on dietary regimen compliance among patients with T2DM in a three-month period.",
-            img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-            date: "May 4 2022",
-            href: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9063130/"
-        }
-    ]
-
-
-
+    const posts = Posts.news
+    
     return ( 
 
         <Layout>
-
-            
+         
         <header className="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
