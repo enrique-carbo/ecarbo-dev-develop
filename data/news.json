@@ -1,6 +1,13 @@
 {
     "news": [
     {
+        "title": "Beyond Labels: Visual Representations for Bone Marrow Cell Morphology Recognition",
+        "desc": "Analyzing and inspecting bone marrow cell cytomorphology is a critical but highly complex and time-consuming component of hematopathology diagnosis. Recent advancements in artificial intelligence have paved the way for the application of deep learning algorithms to complex medical tasks.",
+        "img": "https://img.freepik.com/free-photo/close-up-chemical-microscope-medical-research-equipment-scientific-laboratory-liquid-examination-tool-with-glass-lens-blood-samples-vacutainers-professional-desk_482257-28794.jpg?t=st=1653310216~exp=1653310816~hmac=e607e0decc04bc6d719d70a9e93d7470bbe60322aae9d91e88f8392b14cd0345&w=1480",
+        "date": "May 23 2022",
+        "href": "https://arxiv.org/abs/2205.09880"
+    },    
+    {
         "title": "DNA data storage, sequencing data-carrying DNA",
         "desc": "DNA is a leading candidate as the next archival storage media due to its density, durability and sustainability.",
         "img": "https://img.freepik.com/free-photo/3d-render-medical-background-with-dna-strands_1048-6297.jpg?t=st=1652988098~exp=1652988698~hmac=e6056d93b4949a60109e1154371f4e85b7e5fc38cc9d0988373226122a1ac66f&w=996",

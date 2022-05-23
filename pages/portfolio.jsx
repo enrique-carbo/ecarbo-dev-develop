@@ -102,6 +102,15 @@ const Portfolio = () => {
               />
                    
             </div>
+
+            <div className="grid md:grid-cols-3 gap-4 mt-10 mb-20 mx-5">
+            <Card 
+                title= "Atopic Dermatitis PWA"
+                description= "Atopic Dermatitis PWA with Clinimetry calculator built with Quasar.dev"
+                link= "https://ecarbo.gitlab.io/atopica-pwa/" 
+                pathToImage= "/img/portafolio/atopica.png" 
+              />
+            </div>
     
         </Layout>
      );
