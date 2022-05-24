@@ -17,7 +17,7 @@ const Quotes = () => {
         <div>
             <div className="border-l-4 border-blue-700">
                 <p className="italic ml-2">{ quote.quoteText }</p>
-                <span className="text-3xl text-bold ml-2">"</span>
+                <span className="text-3xl text-bold ml-2">&quot;</span>
             </div>
             <h4 className="mt-5 font-bold"> {quote.author} </h4>
         </div>
