@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { AiFillGithub } from 'react-icons/ai';
 import { BsLinkedin } from 'react-icons/bs'
+import Quotes from './quotes';
 
 
 const Footer = () => {
@@ -107,8 +108,13 @@ const Footer = () => {
                 <p className="flex items-center justify-center md:justify-start mb-4">
                     enriquecarbo.d@gmail.com
                 </p>
+
+                <div className="mt-8">
+                    <Quotes/>
+                </div>
                 
             </div>
+
             </div>
             </div>
             <div className="flex flex-row justify-center p-6 bg-gray-200">
