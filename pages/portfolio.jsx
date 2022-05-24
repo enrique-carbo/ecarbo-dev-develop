@@ -5,7 +5,9 @@ import Card from "../components/card";
 
 const Portfolio = () => {
     return ( 
-        <Layout>
+        <Layout
+        title="Portfolio | ECarbo"
+        >
 
         <header className="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
@@ -42,10 +44,10 @@ const Portfolio = () => {
             />
 
             <Card 
-              title= "Tamizar Website"
-              description= "Medical website and PWA application about screening in colorectal cancer made with Vue.js framework Quasar.dev."
-              link= "https://ecarbo.gitlab.io/tamizarcolonpwa"
-              pathToImage= "/img/portafolio/tamizar.png"
+                title= "Atopic Dermatitis PWA"
+                description= "Atopic Dermatitis PWA with Clinimetry calculator built with Quasar.dev"
+                link= "https://ecarbo.gitlab.io/atopica-pwa/" 
+                pathToImage= "/img/portafolio/atopica.png" 
             />
             
             </div>
@@ -104,12 +106,14 @@ const Portfolio = () => {
             </div>
 
             <div className="grid md:grid-cols-3 gap-4 mt-10 mb-20 mx-5">
+            
             <Card 
-                title= "Atopic Dermatitis PWA"
-                description= "Atopic Dermatitis PWA with Clinimetry calculator built with Quasar.dev"
-                link= "https://ecarbo.gitlab.io/atopica-pwa/" 
-                pathToImage= "/img/portafolio/atopica.png" 
-              />
+              title= "Tamizar Website"
+              description= "Medical website and PWA application about screening in colorectal cancer made with Vue.js framework Quasar.dev."
+              link= "https://ecarbo.gitlab.io/tamizarcolonpwa"
+              pathToImage= "/img/portafolio/tamizar.png"
+            /> 
+
             </div>
     
         </Layout>

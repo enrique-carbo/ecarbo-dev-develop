@@ -8,7 +8,9 @@ const News = () => {
     
     return ( 
 
-        <Layout>
+        <Layout
+        title="News | ECarbo"
+        >
          
         <header className="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">

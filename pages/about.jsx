@@ -4,7 +4,7 @@ import Image from "next/image";
 const About = () => {
     return ( 
         <Layout
-        title="About | Next"
+        title="About | ECarbo"
         >
         
         <header className="relative overflow-hidden text-white bg-gradient-to-r from-sky-400 to-blue-700">
