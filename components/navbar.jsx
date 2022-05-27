@@ -1,13 +1,28 @@
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router'
 
+//i18n
+import en from "../i18n/en"
+import es from "../i18n/es"
+
+
+// Icons
 import { FaBars, FaCogs, FaCode } from "react-icons/fa";
 import { SiAboutdotme } from "react-icons/si";   
-import { MdOutlineWeb } from "react-icons/md"
+import { MdOutlineWeb, MdClose } from "react-icons/md"
 import { BiNews } from "react-icons/bi"
+
  
 export default function Navbar() {
-  const [navbarOpen, setNavbarOpen] = useState(false);
+  
+  const [navbarOpen, setNavbarOpen] = useState(false)
+
+  const { locale } = useRouter()
+  const i18n = locale === "en" ? en : es
+
+
+
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-blue-500">
@@ -27,7 +42,7 @@ export default function Navbar() {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <FaBars/>
+              {navbarOpen ? <MdClose/> : <FaBars/>}
             </button>
           </div>
 
@@ -36,7 +51,7 @@ export default function Navbar() {
               "lg:flex flex-grow items-center" +
               (navbarOpen ? " flex" : " hidden")
             }
-            id="example-navbar-danger"
+            
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
 
@@ -44,7 +59,7 @@ export default function Navbar() {
                 <Link href="/">
                 <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">   
                   <FaCogs className="text-lg leading-lg text-white opacity-75"/>  
-                  <span className="ml-2">Solutions</span>
+                  <span className="ml-2"> { i18n.componentNavbar.tab1 } </span>
                 </a>
                 </Link>  
               </li>
@@ -53,7 +68,7 @@ export default function Navbar() {
                 <Link href="/about">  
                 <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
                   <SiAboutdotme className="text-lg leading-lg text-white opacity-75"/>  
-                  <span className="ml-2">About</span>
+                  <span className="ml-2"> { i18n.componentNavbar.tab2 } </span>
                 </a>
                 </Link>
               </li>
@@ -62,7 +77,7 @@ export default function Navbar() {
                 <Link href="/portfolio">  
                 <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
                   <MdOutlineWeb className="text-lg leading-lg text-white opacity-75"/>  
-                  <span className="ml-2">Portfolio</span>
+                  <span className="ml-2"> { i18n.componentNavbar.tab3 } </span>
                 </a>
                 </Link>
               </li>
@@ -71,7 +86,7 @@ export default function Navbar() {
                 <Link href="/technologies">
                     <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
                     <FaCode className="text-lg leading-lg text-white opacity-75"/>  
-                    <span className="ml-2">Technologies</span>
+                    <span className="ml-2">{ i18n.componentNavbar.tab4 }</span>
                     </a>  
                 </Link>  
               </li>
@@ -80,13 +95,12 @@ export default function Navbar() {
                 <Link href="/news">
                     <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75">
                     <BiNews className="text-lg leading-lg text-white opacity-75"/>  
-                    <span className="ml-2">News</span>
+                    <span className="ml-2">{ i18n.componentNavbar.tab5 }</span>
                     </a>  
                 </Link>  
               </li>
 
-
-
+             
             </ul>
           </div>
 

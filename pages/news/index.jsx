@@ -2,8 +2,17 @@ import Layout from "../../components/Layout";
 import Image from "next/image";
 import Posts from "../../data/news.json"
 
+import { useRouter } from 'next/router'
+
+//i18n
+import en from "../../i18n/en"
+import es from "../../i18n/es"
+
 
 const News = () => {
+    const { locale } = useRouter()
+    const i18n = locale === "en" ? en : es
+
     const posts = Posts.news
     
     return ( 
@@ -16,11 +25,11 @@ const News = () => {
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
             <h2 className="text-4xl font-bold sm:text-5xl">
-              News
+              { i18n.pagesNews.headerTitle }
             </h2>
 
             <p className="hidden sm:block sm:max-w-lg sm:ml-auto sm:text-lg">
-                Sharing news about technology and health sciences.
+              { i18n.pagesNews.headerSubtitle }  
             </p>
    
           </div>

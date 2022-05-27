@@ -1,8 +1,20 @@
 import Layout from '../components/Layout'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
+
+//i18n
+import en from "../i18n/en"
+import es from "../i18n/es"
 
 
 export default function Home() {
+  
+  
+  const { locale } = useRouter()
+  const i18n = locale === "en" ? en : es
+  
+  
+
   return (
 
     <Layout
@@ -26,7 +38,7 @@ export default function Home() {
         </div>
    
          <h3 className="text-4xl italic text-center font-serif">
-            Research and Software Development!
+           { i18n.pagesIndex.headerTitle }
          </h3>
         </div>
 
@@ -45,13 +57,25 @@ export default function Home() {
         </div>
         
         <div>
-          <p className="text-xl uppercase text-center font-bold mb-5">Web Development</p>
-          <p className="font-mono text-lg">Web development is the process of building <span className="font-semibold">websites</span> and <span className="font-semibold">applications</span> for
-          the internet.</p>
-          <p className="font-mono text-lg mt-3">Web development comes as a worldwide channel that communicates your enterprises services
-          and value proposition to your target audience. It plays a huge role in converting your audience
-          into your potential customers.</p>
-          <p className="font-mono text-lg mt-3">You can also create applications that run in a web browser.</p>
+          <p className="text-xl uppercase text-center font-bold mb-5">
+            { i18n.pagesIndex.section1Title }
+          </p>
+          <p className="font-mono text-lg">
+            { i18n.pagesIndex.section1Div1Text1 }  
+          <span className="font-semibold">
+            { i18n.pagesIndex.section1Div1Text2 }
+          </span> 
+            { i18n.pagesIndex.section1Div1Text3 }
+          <span className="font-semibold">
+            { i18n.pagesIndex.section1Div1Text4 }
+          </span> { i18n.pagesIndex.section1Div1Text5} </p>
+
+          <p className="font-mono text-lg mt-3">
+            { i18n.pagesIndex.section1Div2Text1 }
+          </p>
+          <p className="font-mono text-lg mt-3">
+            { i18n.pagesIndex.section1Div3Text1 }
+          </p>
         </div>
       </div>
     </div>
@@ -64,12 +88,22 @@ export default function Home() {
         </div>
         
         <div>
-          <p className="text-xl uppercase text-center font-bold mb-5">PWA Applications</p>
-          <p className="font-mono text-lg">These days, everything is made possible with the help of mobile phones and applications.</p>
-          <p className="font-mono text-lg mt-3">PWAs are web apps developed using a number of specific technologies and standard patterns
-          to allow them to take advantage of both web and native app features.</p>
-          <p className="font-mono text-lg mt-3">A <span className="font-semibold">Native App</span> is a software application built in a specific programming language for a
-          specific device platform, either IOS or Android.</p>
+          <p className="text-xl uppercase text-center font-bold mb-5">
+            { i18n.pagesIndex.section2Title }
+          </p>
+          <p className="font-mono text-lg">
+            { i18n.pagesIndex.section2P1 }
+          </p>
+          <p className="font-mono text-lg mt-3">
+            { i18n.pagesIndex.section2P2 }
+          </p>
+          <p className="font-mono text-lg mt-3">
+            { i18n.pagesIndex.section2P3 } 
+          <span className="font-semibold">
+            { i18n.pagesIndex.section2P4 }
+          </span> 
+            { i18n.pagesIndex.section2P5 }
+          </p>
 
         </div>
       </div>
@@ -80,14 +114,14 @@ export default function Home() {
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
             <h2 className="text-4xl font-bold sm:text-5xl">
-              Building solutions
+              { i18n.pagesIndex.asideH21 }
               <span className="block">
-                with Code!
+              { i18n.pagesIndex.asideH22 }
               </span>
             </h2>
 
             <p className="hidden sm:block sm:max-w-lg sm:ml-auto sm:text-lg">
-              You’ll have noticed that, no matter what’s going on in the world around us, technology is omnipresent in our lives. 
+              { i18n.pagesIndex.asideH23 } 
             </p>
 
             <a className="inline-flex items-center px-6 py-3 font-medium bg-black rounded-full hover:opacity-75" 
@@ -117,13 +151,12 @@ export default function Home() {
         
         <div>
           <p className="text-xl uppercase text-center font-bold mb-5">Chatbots</p>
-          <p className="font-mono text-lg">Chatbots are software applications that use artificial intelligence and natural language processing
-          to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible.</p>
-          <p className="font-mono text-lg mt-3">Most chatbots are accessed on-line via website popups or through virtual assistants. 
-          They can be classified into usage categories that include: commerce (e-commerce via chat), education, entertainment, finance,
-          health, news, and productivity.</p>
-          
-
+          <p className="font-mono text-lg">
+            { i18n.pagesIndex.section3P1 }
+          </p>
+          <p className="font-mono text-lg mt-3">
+          { i18n.pagesIndex.section3P2 }
+          </p>
         </div>
       </div>
     </div>
@@ -132,13 +165,19 @@ export default function Home() {
       <div className="grid md:grid-cols-2 gap-4 m-10 mt-20">
                 
         <div className="lg:ml-10">
-          <p className="text-xl uppercase text-center font-bold mb-5">Robotic Process Automation</p>
-          <p className="font-mono text-lg">The definition of robotic process automation <span className="font-semibold">RPA</span> is the
-          use of computer software robots to handle repetitive, rule-based digital tasks.</p>
-          <p className="font-mono text-lg mt-3">The robot is a software worker that can do jobs such as retrieving customer profiles, support
-          and order information from multiple enterprise systems and applications.</p>
-          <p className="font-mono text-lg mt-3">With robotic process automation (RPA), companies now rely on software robots to do the mundane work, increasing productivity and
-          quality of delivered products and services.</p>
+          <p className="text-xl uppercase text-center font-bold mb-5">
+            { i18n.pagesIndex.section4Title }
+          </p>
+          <p className="font-mono text-lg">
+           { i18n.pagesIndex.section4P1 }
+          <span className="font-semibold">{ i18n.pagesIndex.section4P2 }</span> 
+          { i18n.pagesIndex.section4P3 }</p>
+          <p className="font-mono text-lg mt-3">
+          { i18n.pagesIndex.section4P4 }  
+          </p>
+          <p className="font-mono text-lg mt-3">
+          { i18n.pagesIndex.section4P5 }
+          </p>
         </div>
 
         <div className="flex justify-center">
@@ -153,12 +192,11 @@ export default function Home() {
       <div className="p-12 text-center sm:p-16 lg:p-24 lg:text-left">
         <div className="max-w-lg mx-auto lg:ml-0 lg:pt-12">
           <p className="text-3xl font-bold sm:text-4xl">
-            Artificial Intelligence.
+            { i18n.pagesIndex.aside2P1 }
           </p>
 
           <p className="mt-4">
-          We’re already applying AI to an amazing range of important problems across domains as
-          different as medical imaging, agriculture, autonomous driving, education, disaster prevention, and manufacturing.
+            { i18n.pagesIndex.aside2P2 }
           </p>
         </div>
       </div>
@@ -178,13 +216,18 @@ export default function Home() {
       <div className="grid md:grid-cols-2 gap-4 m-10 mt-10">
                 
         <div className="lg:ml-10">
-          <p className="text-xl uppercase text-center font-bold mb-5">AI and Machine Learning</p>
-          <p className="font-mono text-lg">Concisely, AI can be described as the effort to automate intellectual tasks normally performed
-          by humans.</p>
-          <p className="font-mono text-lg mt-3">As such, AI is a general field that encompasses machine learning and
-          deep learning, but that also includes many more approaches that may not involve any learning.</p>
-          <p className="font-mono text-lg mt-3">We have seen major changes in the field in the last few years that have impacted our
-          daily lives and the way business decisions are made.</p>
+          <p className="text-xl uppercase text-center font-bold mb-5">
+            { i18n.pagesIndex.section5Title }
+          </p>
+          <p className="font-mono text-lg">
+            { i18n.pagesIndex.section5P1 }
+          </p>
+          <p className="font-mono text-lg mt-3">
+            { i18n.pagesIndex.section5P2 }
+          </p>
+          <p className="font-mono text-lg mt-3">
+            { i18n.pagesIndex.section5P3 }  
+          </p>
         </div>
 
         <div className="flex justify-center">

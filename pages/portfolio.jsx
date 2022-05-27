@@ -1,9 +1,20 @@
 import Layout from "../components/Layout"
-import Card from "../components/card";
+import Card from "../components/card"
+
+import { useRouter } from 'next/router'
+
+//i18n
+import en from "../i18n/en"
+import es from "../i18n/es"
 
 
 
 const Portfolio = () => {
+
+    const { locale } = useRouter()
+    const i18n = locale === "en" ? en : es
+
+
     return ( 
         <Layout
         title="Portfolio | ECarbo"
@@ -13,7 +24,7 @@ const Portfolio = () => {
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
             <h2 className="text-4xl font-bold sm:text-5xl">
-              Portfolio
+              { i18n.pagesPortfolio.headerTitle }
             </h2>
          </div>
         </div>

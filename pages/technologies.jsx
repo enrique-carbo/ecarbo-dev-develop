@@ -1,7 +1,17 @@
-import Layout from "../components/Layout";
-import TabsTechRender from "../components/tabs-technologies";
+import Layout from "../components/Layout"
+import TabsTechRender from "../components/tabs-technologies"
+
+import { useRouter } from 'next/router'
+
+//i18n
+import en from "../i18n/en"
+import es from "../i18n/es"
 
 const Technologies = () => {
+
+    const { locale } = useRouter()
+    const i18n = locale === "en" ? en : es
+
     return ( 
         <Layout
         title="Tech | ECarbo"
@@ -11,7 +21,7 @@ const Technologies = () => {
         <div className="relative z-10 max-w-screen-xl px-4 py-24 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl space-y-8 text-center sm:text-right sm:ml-auto">
             <h2 className="text-4xl font-bold sm:text-5xl">
-              Technologies
+              { i18n.pagesTechnologies.headerTitle }
             </h2>
          </div>
         </div>
