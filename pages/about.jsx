@@ -41,18 +41,32 @@ const About = () => {
                 className="rounded-full hover:saturate-50 transition-all"></Image>
             </div>
             <div className="rounded-lg shadow-lg m-5 p-10">
-                <p className="text-lg mb-2">My name is <span className="text-blue-600 font-bold">Enrique</span>, I was born in Paraná province of Entre Rios. A province surrounded by rivers
-                in a South American country, Argentina. I like to listen to music, while I do exercises and life outdoors.</p>
-                <p className="text-lg mb-2">I am a doctor, a specialist in general medicine and dermatology, which gives me a broad perspective of
-                biological processes in general. Related to this, I like to investigate and study about the impact of nutrition
-                on our health, so I try to lead a healthy life.</p>
-                <p className="text-lg mb-2">My other great passion is <span className="font-bold">Computer Science</span>. I always accompany myself in my work as a health professional,
-                but for some years now I have spent more time studying and practicing.</p>
-                <p className="text-lg mb-2">I have researched and used electronic medical records for many years in general open source such as openEMR or GNUhealth.</p>
-                <p className="text-lg mb-2">I have <span className="font-bold">3 years experience building Web Pages and PWA applications</span> with javascript libraries and frameworks.</p>
-                <p className="text-lg mb-2">Lately progress in knowledge of <span className="font-bold">Artificial Intelligence and Machine Learning</span> in different areas such as natural language processing and computer vision.</p>
-                <p className="text-lg">I do not want to forget to mention a very interesting tool that is related to previously mentioned technologies, such as <span className="font-bold">Robotic Process Automation or RPA</span>,
-                which I think has a lot to grow in the future.</p>
+                <p className="text-lg mb-2"> { i18n.pagesAbout.section1P1 }
+                <span className="text-blue-600 font-bold">Enrique Carbó</span>
+                { i18n.pagesAbout.section1P2 }
+                </p>
+                <p className="text-lg mb-2">
+                { i18n.pagesAbout.section1P3 }  
+                </p>
+                <p className="text-lg mb-2"> { i18n.pagesAbout.section1P4 }
+                <span className="font-bold">{ i18n.pagesAbout.section1P5 }</span>. 
+                { i18n.pagesAbout.section1P6 }
+                </p>
+                <p className="text-lg mb-2">
+                { i18n.pagesAbout.section1P7 }  
+                </p>
+                <p className="text-lg mb-2">{ i18n.pagesAbout.section1P8 }
+                <span className="font-bold">{ i18n.pagesAbout.section1P9 }</span> 
+                { i18n.pagesAbout.section1P10 }
+                </p>
+                <p className="text-lg mb-2">{ i18n.pagesAbout.section1P11 }
+                <span className="font-bold">{ i18n.pagesAbout.section1P12 }</span>
+                { i18n.pagesAbout.section1P13 }
+                </p>
+                <p className="text-lg">{ i18n.pagesAbout.section1P14 }
+                <span className="font-bold">{ i18n.pagesAbout.section1P15 }</span>,
+                { i18n.pagesAbout.section1P16 }
+                </p>
             </div>
 
         </div>

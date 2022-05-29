@@ -47,7 +47,27 @@ export default {
 
     },
     pagesAbout: {
-        headerTitle: "Sobre mi"
+        headerTitle: "Sobre mi",
+        section1P1: "Mi nombre es ",
+        section1P2: `, soy nacido en Paraná, provincia de Entre Ríos. La misma se encuentra rodeada por ríos,
+        en un país sudamericano, Argentina. Disfruto de escuchar música mientras realizo ejercicios y de la vida al aire libre.`,
+        section1P3: `Soy médico, especialista en Medicina General y en Dermatología, estos conocimientos adquiridos me dan una perspectiva amplia
+        de variados procesos biológicos en general. Relacionado con esto último me gusta investigar y estudiar sobre el impacto que tiene la nutrición 
+        en nuestra salud, por lo que trato de llevar una vida saludable.`,
+        section1P4: "Mi otra gran pasión es la ",
+        section1P5: "Informática",
+        section1P6: ` Siempre me acompaño en mi trabajo como profesional de la salud,
+        pero en los últimos años he invertido más tiempo en su estudio y práctica.`,
+        section1P7: "He investigado y utilizado software de Historia Clínica Electrónica, en general de código libre como openEMR o GNUhealth.",
+        section1P8: "Tengo  ",
+        section1P9: "3 años de experiencia en la creación de Páginas Web y Aplicaciones PWA",
+        section1P10: " con librerias y frameworks de Javascript.",
+        section1P11: "Últimamente realicé avances en el conocimiento de ",
+        section1P12: "Inteligencia Artificial y Aprendizaje Automático",
+        section1P13: " en diferentes áreas como el Procesamiento del Lenguaje Natural y la Visión por Computadora.",
+        section1P14: "No quiero dejar de mencionar una herramienta muy interesante que esta relacionada con las tecnologías previamente mencionadas, como es la ",
+        section1P15: "Automatización Robótica de Procesos o RPA",
+        section1P16: " que pienso que tiene mucho para crecer y ofrecer en el futuro."
     },
     pagesPortfolio: {
         headerTitle: "Portafolio"
@@ -85,5 +105,8 @@ export default {
         column3Text3: "Tecnologias",
         column3Text4: "Noticias",
         column4Title: "Contacto"
+    },
+    componentSelectori18n:{
+        selector: "Idioma"
     }
 }

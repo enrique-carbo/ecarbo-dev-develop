@@ -44,7 +44,27 @@ export default {
         daily lives and the way business decisions are made.`,
     },
     pagesAbout: {
-        headerTitle: "About me"
+        headerTitle: "About me",
+        section1P1: "My name is ",
+        section1P2: `, I was born in Paraná province of Entre Rios. A province surrounded by rivers
+        in a South American country, Argentina. I like to listen to music, while I do exercises and life outdoors.`,
+        section1P3: `I am a doctor, a specialist in general medicine and dermatology, which gives me a broad perspective of
+        biological processes in general. Related to this, I like to investigate and study about the impact of nutrition
+        on our health, so I try to lead a healthy life.`,
+        section1P4: "My other great passion is ",
+        section1P5: "Computer Science",
+        section1P6: `I always accompany myself in my work as a health professional,
+        but for some years now I have spent more time studying and practicing.`,
+        section1P7: "I have researched and used electronic medical records for many years in general open source such as openEMR or GNUhealth.",
+        section1P8: "I have ",
+        section1P9: "3 years experience building Web Pages and PWA applications",
+        section1P10: " with javascript libraries and frameworks.",
+        section1P11: "Lately progress in knowledge of ",
+        section1P12: "Artificial Intelligence and Machine Learning",
+        section1P13: " in different areas such as natural language processing and computer vision.",
+        section1P14: "I do not want to forget to mention a very interesting tool that is related to previously mentioned technologies, such as ",
+        section1P15: "Robotic Process Automation or RPA",
+        section1P16: " which I think has a lot to grow in the future."
     },
     pagesPortfolio: {
         headerTitle: "Portfolio"
@@ -82,6 +102,8 @@ export default {
         column3Text3: "Technologies",
         column3Text4: "News",
         column4Title: "Contact"
-        
+    },
+    componentSelectori18n:{
+        selector: "Language"
     }
 }
