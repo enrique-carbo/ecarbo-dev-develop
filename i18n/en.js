@@ -74,7 +74,8 @@ export default {
     },
     pagesNews: {
         headerTitle: "News",
-        headerSubtitle: "Sharing news about technology and health sciences."
+        headerSubtitle: "Sharing news about technology and health sciences.",
+        moreNews: "More News"
     },
     componentNavbar: {
         tab1: "Solutions",

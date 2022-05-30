@@ -13,7 +13,8 @@ const News = () => {
     const { locale } = useRouter()
     const i18n = locale === "en" ? en : es
 
-    const posts = Posts.news
+    const heroPost = Posts.news[0]
+    const posts = Posts.news.slice(1)
     
     return ( 
 
@@ -46,6 +47,28 @@ const News = () => {
         </div>
         </header>
 
+        <div className="grid lg:grid-cols-2 lg:mx-20">
+          <div className="flex md:justify-center lg:justify-end m-10">
+            <Image src={heroPost.img} alt={heroPost.title} width={600} height={400} className="rounded-xl" />
+          </div>
+          
+          <div className="mx-5">
+            <div className="lg:mt-10">
+            <a href={heroPost.href} target="_blank" rel="noreferrer">
+              <h3 className="text-4xl text-gray-900 hover:underline underline-offset-2 decoration-blue-600"> {heroPost.title} </h3>
+            </a>
+              <div className="text-base mt-3"> {heroPost.date} </div>
+            </div>
+
+            <div className="mt-5 lg:mt-10">
+              <p className="text-gray-600 text-xl">{heroPost.desc}</p>
+            </div>
+          </div>
+
+        </div>
+
+        
+        <div className="text-3xl lg:text-4xl font-bold ml-8 lg:ml-16 mt-10">{ i18n.pagesNews.moreNews} </div>
         <div className="mt-12 grid md:gap-4 md:grid-cols-2 md:mx-5 lg:grid-cols-3 xl:grid-cols-4 mb-10 lg:mx-20 lg:gap-10">
                 {
                     posts.map((items, key) => (
