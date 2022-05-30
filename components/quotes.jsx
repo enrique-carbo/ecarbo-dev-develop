@@ -19,7 +19,7 @@ const Quotes = () => {
                 <p className="italic ml-2">{ quote.quoteText }</p>
                 <span className="text-3xl text-bold ml-2">&quot;</span>
             </div>
-            <h4 className="mt-5 font-bold"> {quote.author} </h4>
+            <h4 className="mt-5 font-bold"> -- {quote.author} </h4>
         </div>
      );
 }

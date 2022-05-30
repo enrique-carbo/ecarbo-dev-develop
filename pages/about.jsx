@@ -25,10 +25,12 @@ const About = () => {
         </div>
 
         <div className="absolute inset-0 w-full h-full mix-blend-multiply">
-          <img
+          <Image
             src="/img/modern-background.jpg"
             alt="Background image"
             className="absolute inset-0 object-cover object-top w-full h-full"
+            layout="fill"
+            priority="true"
           />
         </div>
         </header>

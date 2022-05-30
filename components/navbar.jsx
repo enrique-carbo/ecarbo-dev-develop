@@ -1,17 +1,19 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/router'
+import Image from "next/image";
 
 //i18n
 import en from "../i18n/en"
 import es from "../i18n/es"
 
 
-// Icons
+// Icons and images
 import { FaBars, FaCogs, FaCode } from "react-icons/fa";
 import { SiAboutdotme } from "react-icons/si";   
 import { MdOutlineWeb, MdClose } from "react-icons/md"
 import { BiNews } from "react-icons/bi"
+import logoGray from "../public/img/logo-ecarbo-gray.svg"
 
  
 export default function Navbar() {
@@ -26,13 +28,12 @@ export default function Navbar() {
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-blue-500">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div className="container px-4 mx-auto flex flex-wrap justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 
             <Link href="/">
-                <a className="font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white">
-                  <span><img src="/img/logo-ecarbo-gray.svg" alt="ECarbo Logo" className="w-20 h-15 inline"/></span>
-                  
+                <a className="font-bold leading-relaxed inline-flex items-center mr-4 py-2 whitespace-nowrap uppercase text-white">
+                  <Image src={logoGray} alt="ECarbo Logo" width={70} height={70} className="scale-150"/>
                   <span className="text-sm">ECARBO</span>
                 </a>
             </Link>  

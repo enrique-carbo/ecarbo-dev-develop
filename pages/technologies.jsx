@@ -1,5 +1,6 @@
 import Layout from "../components/Layout"
 import TabsTechRender from "../components/tabs-technologies"
+import Image from "next/image"
 
 import { useRouter } from 'next/router'
 
@@ -27,10 +28,12 @@ const Technologies = () => {
         </div>
 
         <div className="absolute inset-0 w-full h-full mix-blend-multiply">
-          <img
+          <Image
             src="/img/motion-speed.jpg"
             alt="motion speed background"
             className="absolute inset-0 object-cover object-top w-full h-full"
+            layout="fill"
+            priority="true"
           />
         </div>
         </header>

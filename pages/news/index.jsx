@@ -41,6 +41,7 @@ const News = () => {
             alt="Code laptop"
             className="absolute inset-0 object-cover object-top w-full h-full"
             layout="fill"
+            priority="true"
           />
         </div>
         </header>

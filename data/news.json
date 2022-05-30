@@ -1,6 +1,13 @@
 {
     "news": [
     {
+        "title": "Improving skin tone representation across Google",
+        "desc": "Skin tone plays a key role in how we experience and are treated in the world, and even factors into how we interact with technologies. Studies show that products built using today’s artificial intelligence (AI) and machine learning (ML) technologies can perpetuate unfair biases and not work well for people with darker skin tones.",
+        "img": "https://img.freepik.com/free-photo/handsome-african-guy-with-happy-face-expression-supporting-his-friends-before-conference-indoor-portrait-work-team-young-international-specialists-preparing-meeting-with-chief_197531-3781.jpg?w=1380&t=st=1653913629~exp=1653914229~hmac=7f2c7867c8b959e1e9986c538810de92c9b96a26d9a6f629800706af3edce3d4",
+        "date": "May 30 2022",
+        "href": "https://www.skintone.google/"
+    },     
+    {
         "title": "Beyond Labels: Visual Representations for Bone Marrow Cell Morphology Recognition",
         "desc": "Analyzing and inspecting bone marrow cell cytomorphology is a critical but highly complex and time-consuming component of hematopathology diagnosis. Recent advancements in artificial intelligence have paved the way for the application of deep learning algorithms to complex medical tasks.",
         "img": "https://img.freepik.com/free-photo/close-up-chemical-microscope-medical-research-equipment-scientific-laboratory-liquid-examination-tool-with-glass-lens-blood-samples-vacutainers-professional-desk_482257-28794.jpg?t=st=1653310216~exp=1653310816~hmac=e607e0decc04bc6d719d70a9e93d7470bbe60322aae9d91e88f8392b14cd0345&w=1480",
