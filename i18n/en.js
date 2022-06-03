@@ -34,7 +34,7 @@ export default {
         section4P5: `With robotic process automation (RPA), companies now rely on software robots to do the mundane work, 
         increasing productivity and quality of delivered products and services.`,
         aside2P1: "Artificial Intelligence.",
-        aside2P1: `We’re already applying AI to an amazing range of important problems across domains as
+        aside2P2: `We’re already applying AI to an amazing range of important problems across domains as
         different as medical imaging, agriculture, autonomous driving, education, disaster prevention, and manufacturing.`,
         section5Title: "AI and Machine Learning",
         section5P1: "Concisely, AI can be described as the effort to automate intellectual tasks normally performed by humans.",

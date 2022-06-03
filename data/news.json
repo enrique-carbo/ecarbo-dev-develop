@@ -1,6 +1,13 @@
 {
     "news": [
     {
+        "title": "Unified icons framework",
+        "desc": "Iconify tries to unify all icon sets. You can use the same code no matter what icon set you choose. You can mix icons from multiple icon sets on the same page.",
+        "img": "https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "date": "Jun 3 2022",
+        "href": "https://iconify.design/"
+    },
+    {
         "title": "Improving skin tone representation across Google",
         "desc": "Skin tone plays a key role in how we experience and are treated in the world, and even factors into how we interact with technologies. Studies show that products built using today’s artificial intelligence (AI) and machine learning (ML) technologies can perpetuate unfair biases and not work well for people with darker skin tones.",
         "img": "https://img.freepik.com/free-photo/handsome-african-guy-with-happy-face-expression-supporting-his-friends-before-conference-indoor-portrait-work-team-young-international-specialists-preparing-meeting-with-chief_197531-3781.jpg?w=1380&t=st=1653913629~exp=1653914229~hmac=7f2c7867c8b959e1e9986c538810de92c9b96a26d9a6f629800706af3edce3d4",
