@@ -1,6 +1,13 @@
 {
     "news": [
     {
+        "title": "RigoBERTa: A State-of-the-Art Language Model For Spanish",
+        "desc": "This paper presents RigoBERTa, a State-of-the-Art Language Model for Spanish. RigoBERTa is trained over a well-curated corpus formed up from different subcorpora with key features.",
+        "img": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "date": "Jun 3 2022",
+        "href": "https://arxiv.org/abs/2205.10233v2"
+    },    
+    {
         "title": "Unified icons framework",
         "desc": "Iconify tries to unify all icon sets. You can use the same code no matter what icon set you choose. You can mix icons from multiple icon sets on the same page.",
         "img": "https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
