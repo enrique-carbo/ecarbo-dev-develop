@@ -128,6 +128,13 @@ const Portfolio = () => {
               pathToImage= "/img/portafolio/tamizar.png"
             /> 
 
+            <Card 
+              title= "Lifestyle Medicine Website"
+              description= "Medical website about Lifestyle Medicine made with React, Next and Tailwind."
+              link= "https://lifestylemedicine.vercel.app/"
+              pathToImage= "/img/portafolio/lifestylemedicine.png"
+            /> 
+
             </div>
     
         </Layout>
