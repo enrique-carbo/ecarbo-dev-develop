@@ -26,24 +26,26 @@ const Footer = () => {
             </div>
             <div className="flex justify-center">
 
-                
-                <a href="https://github.com/enrique-carbo" target="_blank" rel="noreferrer" className="mr-6 text-gray-600 ">
-                <AiFillGithub className="inline"/>
+                <Link href="https://github.com/enrique-carbo">
+                <a target="_blank" rel="noreferrer" className="mr-6 text-gray-600 ">
+                <AiFillGithub className="inline text-2xl"/>
                 <span className="ml-2">Github</span>
                 </a>
+                </Link>
                 
-
-                <a href="https://www.linkedin.com/in/enrique-carbo" target="_blank" rel="noreferrer" className="mr-4 text-gray-600">
-                <BsLinkedin className="inline"/>
+                <Link href="https://www.linkedin.com/in/enrique-carbo">
+                <a target="_blank" rel="noreferrer" className="mr-4 text-gray-600">
+                <BsLinkedin className="inline text-2xl"/>
                 <span className="ml-2">Linkedin</span>
                 </a>
+                </Link>
 
-                <a href="https://huggingface.co/ecarbo" target="_blank" rel="noreferrer" className="text-gray-600">
-                <span className="ml-2">🤗  Hugging Face</span>
+                <Link href="https://huggingface.co/ecarbo">
+                <a target="_blank" rel="noreferrer" className="text-gray-600">
+                <span className="ml-2 text-xl">🤗</span><span className='ml-2'>Hugging Face</span>
                 </a>
-
-                               
-          
+                </Link>
+         
             </div>
           </div>
 
