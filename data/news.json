@@ -1,6 +1,13 @@
 {
     "news": [
     {
+        "title": "Cost-effectiveness of digital therapeutics for essential hypertension",
+        "desc": "Hypertension increases the risk of cardiovascular and other diseases. This study aimed to analyze the cost-effectiveness of using prescription DTx in treating hypertension.",
+        "img": "https://img.freepik.com/free-photo/heart-banner-cardiac-technology_53876-104942.jpg?t=st=1657293198~exp=1657293798~hmac=93aae037227af4f3b840b2e7c42f513c9de8a1d3f9d83899164ab2441c7bf3d6&w=1380",
+        "date": "Jul 8 2022",
+        "href": "https://www.nature.com/articles/s41440-022-00952-x"
+    },  
+    {
         "title": "RigoBERTa: A State-of-the-Art Language Model For Spanish",
         "desc": "This paper presents RigoBERTa, a State-of-the-Art Language Model for Spanish. RigoBERTa is trained over a well-curated corpus formed up from different subcorpora with key features.",
         "img": "https://images.unsplash.com/photo-1634128221889-82ed6efebfc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
