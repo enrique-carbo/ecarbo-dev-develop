@@ -7,7 +7,7 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   images: {
-    domains: ["images.unsplash.com", "pyscript.net", "img.freepik.com"],
+    domains: ["images.unsplash.com", "pyscript.net", "img.freepik.com", "www.jwst.nasa.gov"],
   },
   i18n: {
     locales: ["en", "es"],

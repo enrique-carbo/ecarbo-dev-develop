@@ -1,6 +1,14 @@
 {
     "news": [
     {
+        "title": "Exquisite new data will transform our understanding of the early universe",
+        "desc": "A flurry of bright white galaxies is stirring up this scene, captured in high resolution by NASA’s James Webb Space Telescope.",
+        "img": "https://www.jwst.nasa.gov/content/webbLaunch/assets/images/firstImages//image1-DeepField/STSCI-J-p22035a-2000px.jpg",
+        "date": "Jul 13 2022",
+        "href": "https://www.nasa.gov/image-feature/goddard/2022/nasa-s-webb-delivers-deepest-infrared-image-of-universe-yet"
+
+    },
+    {
         "title": "Cost-effectiveness of digital therapeutics for essential hypertension",
         "desc": "Hypertension increases the risk of cardiovascular and other diseases. This study aimed to analyze the cost-effectiveness of using prescription DTx in treating hypertension.",
         "img": "https://img.freepik.com/free-photo/heart-banner-cardiac-technology_53876-104942.jpg?t=st=1657293198~exp=1657293798~hmac=93aae037227af4f3b840b2e7c42f513c9de8a1d3f9d83899164ab2441c7bf3d6&w=1380",
