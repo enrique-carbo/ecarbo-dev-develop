@@ -135,6 +135,13 @@ const Portfolio = () => {
               pathToImage= "/img/portafolio/lifestylemedicine.png"
             /> 
 
+            <Card 
+            title= "Alopecia Areata Website"
+            description= "Medical website about Alopecia Areata with Clinimetrics calculators made with Angular, Angular Material and Flex-Layout."
+            link= "https://enrique-carbo.github.io/alopecia-areata/"
+            pathToImage= "/img/portafolio/alopecia-areata-web.png"
+            /> 
+
             </div>
     
         </Layout>

@@ -1,6 +1,22 @@
 {
     "news": [
     {
+        "title": "Engineers build LEGO-like artificial intelligence chip",
+        "desc": "Imagine a more sustainable future, where cellphones, smartwatches, and other wearable devices don’t have to be shelved or discarded for a newer model.",
+        "img": "https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg?w=1380&t=st=1659531871~exp=1659532471~hmac=0328151075074262e92e948cbc7fe4adcb9cb63f86fd62395c04b54ff3f33a68",
+        "date": "Aug 03 2022",
+        "href": "https://news.mit.edu/2022/stackable-artificial-intelligence-chip-0613"
+        
+    },
+    {
+        "title": "A Python Vasculature Biomarker Toolbox Based On Retinal Blood Vessel Segmentation",
+        "desc": "Recent advances in computer vision and image segmentation enable automatising digital fundus image blood vessel segmentation.",
+        "img": "https://img.freepik.com/free-photo/man-having-eye-sight-check_23-2149082433.jpg?w=1380&t=st=1659531445~exp=1659532045~hmac=61f92342fdb8b06af8b7b3f235a57e2b42ab9c0a9c809bec4558e077001a787b",
+        "date": "Aug 03 2022",
+        "href": "https://arxiv.org/abs/2208.00392"
+    
+    },    
+    {
         "title": "Exquisite new data will transform our understanding of the early universe",
         "desc": "A flurry of bright white galaxies is stirring up this scene, captured in high resolution by NASA’s James Webb Space Telescope.",
         "img": "https://www.jwst.nasa.gov/content/webbLaunch/assets/images/firstImages//image1-DeepField/STSCI-J-p22035a-2000px.jpg",
