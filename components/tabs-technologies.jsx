@@ -91,9 +91,9 @@ export default function TabsTechRender() {
 
 
           <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-            <div className="px-4 py-5 flex-auto">
+            <div className="px-4 py-5 flex-auto justify-center">
               <div className="tab-content tab-space">
-                <div className={openTab === 1 ? "grid grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2" : "hidden"} id="link1">
+                <div className={openTab === 1 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link1">
                                 
                   <CardTech srcImage="/img/technologies/html5.png" altImage="Logo of HTML5" title="HTML"/>
 
@@ -105,6 +105,8 @@ export default function TabsTechRender() {
 
                   <CardTech srcImage="/img/technologies/tailwind.png" altImage="Logo of Tailwind" title="TAILWIND"/>
 
+                  <CardTech srcImage="/img/technologies/angularmaterial.svg" altImage="Logo of Angular Material" title="ANGULAR MATERIAL"/>
+
                   <CardTech srcImage="/img/technologies/react.png" altImage="Logo of React" title="REACT"/>
 
                   <CardTech srcImage="/img/technologies/nextjs.png" altImage="Logo of Next" title="NEXT"/>
@@ -113,22 +115,26 @@ export default function TabsTechRender() {
 
                   <CardTech srcImage="/img/technologies/quasar.png" altImage="Logo of Quasar" title="QUASAR"/>
 
+                  <CardTech srcImage="/img/technologies/typescript.svg" altImage="Logo of TS" title="TYPESCRIPT"/>
+
+                  <CardTech srcImage="/img/technologies/angular.svg" altImage="Logo of Angular" title="ANGULAR"/>
+
                 </div>
-                <div className={openTab === 2 ? "grid grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2" : "hidden"} id="link2">
+                <div className={openTab === 2 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link2">
                 
                 <CardTech srcImage="/img/technologies/dialogflow.png" altImage="Logo of Dialogflow" title="DIALOGFLOW"/>
 
                 <CardTech srcImage="/img/technologies/rasa.png" altImage="Logo of Rasa" title="RASA"/>
 
                 </div>
-                <div className={openTab === 3 ? "grid grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2" : "hidden"} id="link3">
+                <div className={openTab === 3 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link3">
                 
                 <CardTech srcImage="/img/technologies/rocketbot.jpeg" altImage="Logo of Rocketbot" title="ROCKETBOT"/>
 
                 <CardTech srcImage="/img/technologies/robocorp.png" altImage="Logo of Robocorp" title="ROBOCORP"/>
 
                 </div>
-                <div className={openTab === 4 ? "grid grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2" : "hidden"} id="link4">
+                <div className={openTab === 4 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link4">
                 
                 <CardTech srcImage="/img/technologies/tensorflow.png" altImage="Logo of Tensorflow" title="TENSORFLOW"/>
 
