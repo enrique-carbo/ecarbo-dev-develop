@@ -1,6 +1,14 @@
 {
     "news": [
     {
+        "title": "An App-Based Test for Assessment of Cognitive Deficits",
+        "desc": "An App-Based Digit Symbol Substitution Test for Assessment of Cognitive Deficits in Adults With Major Depressive Disorder: Evaluation Study.",
+        "img": "https://img.freepik.com/free-photo/close-up-male-hands-using-smartphone_1262-16914.jpg?w=1380&t=st=1669815752~exp=1669816352~hmac=f520d61ddb107ec014cab8d8a8aa37a2772ff7b6b48fde2b3515a6b7e612b2ac",
+        "date": "Nov 30 2022",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9650567/"
+            
+    },
+    {
         "title": "Engineers build LEGO-like artificial intelligence chip",
         "desc": "Imagine a more sustainable future, where cellphones, smartwatches, and other wearable devices don’t have to be shelved or discarded for a newer model.",
         "img": "https://img.freepik.com/free-photo/ai-technology-microchip-background-digital-transformation-concept_53876-124669.jpg?w=1380&t=st=1659531871~exp=1659532471~hmac=0328151075074262e92e948cbc7fe4adcb9cb63f86fd62395c04b54ff3f33a68",

@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
+import profilePic from '../public/img/ecarbo-bg-transparent.svg';
 import { useRouter } from 'next/router'
 
 //i18n
@@ -39,7 +40,7 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-4 my-10">
             <div className="flex justify-center md:justify-end max-h-80 mt-10">
-                <Image src="/img/anime-ecarbo.png" alt="Developer image" height={300} width={300} 
+                <Image src={profilePic} alt="Developer image" height={400} width={400} 
                 className="rounded-full hover:saturate-50 transition-all"></Image>
             </div>
             <div className="rounded-lg shadow-lg m-5 p-10">

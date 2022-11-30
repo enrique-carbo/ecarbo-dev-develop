@@ -57,7 +57,7 @@ export default {
         but for some years now I have spent more time studying and practicing.`,
         section1P7: "I have researched and used electronic medical records for many years in general open source such as openEMR or GNUhealth.",
         section1P8: "I have ",
-        section1P9: "3 years experience building Web Pages and PWA applications",
+        section1P9: "4 years experience building Web Pages and PWA applications",
         section1P10: " with javascript libraries and frameworks.",
         section1P11: "Lately progress in knowledge of ",
         section1P12: "Artificial Intelligence and Machine Learning",
