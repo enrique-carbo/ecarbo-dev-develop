@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 //i18n
 import en from "../i18n/en"
@@ -24,25 +25,26 @@ const Footer = () => {
             <div className="mr-12 hidden lg:block">
                 <span> { i18n.componentFooter.getConnected } </span>
             </div>
-            <div className="flex justify-center">
+            <div className="flex flex-col sm:flex-row justify-center gap-2">
 
                 <Link href="https://github.com/enrique-carbo">
-                <a target="_blank" rel="noreferrer" className="mr-6 text-gray-600 ">
-                <AiFillGithub className="inline text-2xl"/>
-                <span className="ml-2">Github</span>
+                <a target="_blank" rel="noreferrer" className="mr-6 text-gray-600 flex item-center">
+                <Image src="/img/github.svg" width={30} height={30}/>
+                <span className="ml-2 mt-2">Github</span>
                 </a>
                 </Link>
                 
                 <Link href="https://www.linkedin.com/in/enrique-carbo">
-                <a target="_blank" rel="noreferrer" className="mr-4 text-gray-600">
-                <BsLinkedin className="inline text-2xl"/>
-                <span className="ml-2">Linkedin</span>
+                <a target="_blank" rel="noreferrer" className="mr-4 text-gray-600 flex item-center">
+                <Image src="/img/linkedin.svg" width={30} height={30}/>
+                <span className="ml-2 mt-2">Linkedin</span>
                 </a>
                 </Link>
 
                 <Link href="https://huggingface.co/ecarbo">
-                <a target="_blank" rel="noreferrer" className="text-gray-600">
-                <span className="ml-2 text-xl">🤗</span><span className='ml-2'>Hugging Face</span>
+                <a target="_blank" rel="noreferrer" className="text-gray-600 flex item-center">
+                <Image src="/img/hugging-face.svg" width={30} height={30}/>
+                <span className='ml-2 mt-2'>Hugging Face</span>
                 </a>
                 </Link>
          
@@ -138,7 +140,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="flex flex-row justify-center p-6 bg-gray-200">
-                <p className="place-self-center">2022 - Enrique Carbó</p>
+                <p className="place-self-center">2023 - Enrique Carbó</p>
                 <img src="/img/logo-ecarbo.svg" alt="ECarbo Logo" className="w-20 h-15 hover:animate-spin"/>
             </div>
         </footer>

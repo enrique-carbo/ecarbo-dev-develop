@@ -60,7 +60,7 @@ export default {
         pero en los últimos años he invertido más tiempo en su estudio y práctica.`,
         section1P7: "He investigado y utilizado software de Historia Clínica Electrónica, en general de código libre como openEMR o GNUhealth.",
         section1P8: "Tengo  ",
-        section1P9: "4 años de experiencia en la creación de Páginas Web y Aplicaciones PWA",
+        section1P9: "5 años de experiencia en la creación de Páginas Web y Aplicaciones PWA",
         section1P10: " con librerias y frameworks de Javascript.",
         section1P11: "Últimamente realicé avances en el conocimiento de ",
         section1P12: "Inteligencia Artificial y Aprendizaje Automático",

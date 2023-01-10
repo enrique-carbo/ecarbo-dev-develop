@@ -101,6 +101,12 @@ export default function TabsTechRender() {
 
                   <CardTech srcImage="/img/technologies/js.png" altImage="Logo of JS" title="JAVASCRIPT"/>
 
+                  <CardTech srcImage="/img/technologies/node-js.svg" altImage="Logo of Node-JS" title="NODE.JS"/>
+
+                  <CardTech srcImage="/img/technologies/python.svg" altImage="Logo of Python" title="PYTHON"/>
+
+                  <CardTech srcImage="/img/technologies/go.svg" altImage="Logo of Go" title="GO"/>
+
                   <CardTech srcImage="/img/technologies/bootstrap.png" altImage="Logo of Bootstrap" title="BOOTSTRAP"/>
 
                   <CardTech srcImage="/img/technologies/tailwind.png" altImage="Logo of Tailwind" title="TAILWIND"/>
@@ -121,6 +127,8 @@ export default function TabsTechRender() {
 
                 </div>
                 <div className={openTab === 2 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link2">
+
+                <CardTech srcImage="/img/technologies/python.svg" altImage="Logo of Python" title="PYTHON"/>  
                 
                 <CardTech srcImage="/img/technologies/dialogflow.png" altImage="Logo of Dialogflow" title="DIALOGFLOW"/>
 
@@ -129,12 +137,16 @@ export default function TabsTechRender() {
                 </div>
                 <div className={openTab === 3 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link3">
                 
+                <CardTech srcImage="/img/technologies/python.svg" altImage="Logo of Python" title="PYTHON"/>
+                
                 <CardTech srcImage="/img/technologies/rocketbot.jpeg" altImage="Logo of Rocketbot" title="ROCKETBOT"/>
 
                 <CardTech srcImage="/img/technologies/robocorp.png" altImage="Logo of Robocorp" title="ROBOCORP"/>
 
                 </div>
                 <div className={openTab === 4 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link4">
+                
+                <CardTech srcImage="/img/technologies/python.svg" altImage="Logo of Python" title="PYTHON"/>
                 
                 <CardTech srcImage="/img/technologies/tensorflow.png" altImage="Logo of Tensorflow" title="TENSORFLOW"/>
 
