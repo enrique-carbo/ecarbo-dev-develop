@@ -1,6 +1,14 @@
 {
     "news": [
     {
+        "title": "Large Language Models Encode Clinical Knowledge",
+        "desc": "Large language models present a significant opportunity to rethink the development of medical AI.",
+        "img": "https://img.freepik.com/free-vector/natural-language-processing-illustration_23-2149226911.jpg?w=1380&t=st=1675417984~exp=1675418584~hmac=79f06f60e1c4eee66cebfd4a10ee6882bd2ba2dea34440566eb1f99eafe83d73",
+        "date": "Feb 3 2023",
+        "href": "https://arxiv.org/abs/2212.13138"
+                
+    },    
+    {
         "title": "An App-Based Test for Assessment of Cognitive Deficits",
         "desc": "An App-Based Digit Symbol Substitution Test for Assessment of Cognitive Deficits in Adults With Major Depressive Disorder: Evaluation Study.",
         "img": "https://img.freepik.com/free-photo/close-up-male-hands-using-smartphone_1262-16914.jpg?w=1380&t=st=1669815752~exp=1669816352~hmac=f520d61ddb107ec014cab8d8a8aa37a2772ff7b6b48fde2b3515a6b7e612b2ac",

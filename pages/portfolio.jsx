@@ -143,6 +143,15 @@ const Portfolio = () => {
             /> 
 
             </div>
+
+            <div className="grid md:grid-cols-3 gap-4 mt-10 mb-20 mx-5">
+            <Card 
+            title= "Adiseniar Website"
+            description= "Graphic design and software development website built with Angular and Tailwindcss."
+            link= "https://www.adiseni.ar/"
+            pathToImage= "/img/portafolio/adiseniar.png"
+            /> 
+            </div>
     
         </Layout>
      );
