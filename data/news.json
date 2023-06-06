@@ -1,6 +1,14 @@
 {
     "news": [
     {
+        "title": "Towards Expert-Level Medical Question Answering with Large Language Models",
+        "desc": "Med-PaLM 2 scored up to 86.5% on the MedQA dataset, improving upon Med-PaLM by over 19% and setting a new state-of-the-art.",
+        "img": "https://img.freepik.com/free-photo/programming-background-collage_23-2149901780.jpg?w=1380&t=st=1686051597~exp=1686052197~hmac=e95baf7fd50bac6f8885fee5d670dcbc527eca9b733c2774e817de54d63b726e",
+        "date": "Jun 6 2023",
+        "href": "https://arxiv.org/abs/2305.09617"
+                    
+    },  
+    {
         "title": "Large Language Models Encode Clinical Knowledge",
         "desc": "Large language models present a significant opportunity to rethink the development of medical AI.",
         "img": "https://img.freepik.com/free-vector/natural-language-processing-illustration_23-2149226911.jpg?w=1380&t=st=1675417984~exp=1675418584~hmac=79f06f60e1c4eee66cebfd4a10ee6882bd2ba2dea34440566eb1f99eafe83d73",
