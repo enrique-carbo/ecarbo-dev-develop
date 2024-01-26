@@ -101,17 +101,9 @@ export default function TabsTechRender() {
 
                   <CardTech srcImage="/img/technologies/js.png" altImage="Logo of JS" title="JAVASCRIPT"/>
 
-                  <CardTech srcImage="/img/technologies/node-js.svg" altImage="Logo of Node-JS" title="NODE.JS"/>
+                  <CardTech srcImage="/img/technologies/typescript.svg" altImage="Logo of TS" title="TYPESCRIPT"/>
 
-                  <CardTech srcImage="/img/technologies/python.svg" altImage="Logo of Python" title="PYTHON"/>
-
-                  <CardTech srcImage="/img/technologies/go.svg" altImage="Logo of Go" title="GO"/>
-
-                  <CardTech srcImage="/img/technologies/bootstrap.png" altImage="Logo of Bootstrap" title="BOOTSTRAP"/>
-
-                  <CardTech srcImage="/img/technologies/tailwind.png" altImage="Logo of Tailwind" title="TAILWIND"/>
-
-                  <CardTech srcImage="/img/technologies/angularmaterial.svg" altImage="Logo of Angular Material" title="ANGULAR MATERIAL"/>
+                  <CardTech srcImage="/img/technologies/angular.svg" altImage="Logo of Angular" title="ANGULAR"/>
 
                   <CardTech srcImage="/img/technologies/react.png" altImage="Logo of React" title="REACT"/>
 
@@ -121,9 +113,19 @@ export default function TabsTechRender() {
 
                   <CardTech srcImage="/img/technologies/quasar.png" altImage="Logo of Quasar" title="QUASAR"/>
 
-                  <CardTech srcImage="/img/technologies/typescript.svg" altImage="Logo of TS" title="TYPESCRIPT"/>
+                  <CardTech srcImage="/img/technologies/astro-icon.svg" altImage="Logo of Astro" title="ASTRO"/>
 
-                  <CardTech srcImage="/img/technologies/angular.svg" altImage="Logo of Angular" title="ANGULAR"/>
+                  <CardTech srcImage="/img/technologies/bootstrap.png" altImage="Logo of Bootstrap" title="BOOTSTRAP"/>
+
+                  <CardTech srcImage="/img/technologies/tailwind.png" altImage="Logo of Tailwind" title="TAILWIND"/>
+
+                  <CardTech srcImage="/img/technologies/angularmaterial.svg" altImage="Logo of Angular Material" title="ANGULAR MATERIAL"/>
+
+                  <CardTech srcImage="/img/technologies/node-js.svg" altImage="Logo of Node-JS" title="NODE.JS"/>
+
+                  <CardTech srcImage="/img/technologies/python.svg" altImage="Logo of Python" title="PYTHON"/>
+
+                  <CardTech srcImage="/img/technologies/go.svg" altImage="Logo of Go" title="GO"/>
 
                 </div>
                 <div className={openTab === 2 ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-2 justify-items-center" : "hidden"} id="link2">

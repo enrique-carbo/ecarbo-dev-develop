@@ -1,5 +1,14 @@
 {
     "news": [
+
+    {
+        "title": "Heart sound classification based on bispectrum features and Vision Transformer mode.",
+        "desc": "We unveil an ingenious model fortified by bispectrum-inspired feature extraction and the cutting-edge prowess of the Vision Transformer (ViT) model.",
+        "img": "https://img.freepik.com/free-photo/finger-pressing-graphic_1112-659.jpg?w=1060&t=st=1706275288~exp=1706275888~hmac=a1e8ccf980bd095ba67f2318e93b5fcf4c024ab5c64b11ed3baa454d6b789618",
+        "date": "Jan 26 2024",
+        "href": "https://www.sciencedirect.com/science/article/pii/S1110016823010128"
+                        
+    }, 
     {
         "title": "Towards Expert-Level Medical Question Answering with Large Language Models",
         "desc": "Med-PaLM 2 scored up to 86.5% on the MedQA dataset, improving upon Med-PaLM by over 19% and setting a new state-of-the-art.",
